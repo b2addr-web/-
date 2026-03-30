@@ -1,0 +1,4 @@
+cd net-expert
+npm install
+npm run dev
+# افتح http://localhost:3000
