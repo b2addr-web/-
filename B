@@ -1,0 +1,29 @@
+git init && git add . && git commit -m "init"
+# ارفع على GitHub، ثم استورد المشروع من vercel.com
+```
+
+---
+
+## 🔐 بيانات الدخول
+| المستخدم | كلمة المرور | الصلاحية |
+|----------|------------|---------|
+| `admin` | `admin123` | مسؤول كامل |
+| `viewer1` | `view123` | مشاهدة فقط |
+
+---
+
+## 📁 ما يحتويه المشروع (12 ملف)
+```
+net-expert/
+├── pages/index.js        ← لوحة التحكم الرئيسية
+├── pages/_app.js         ← ضغط Auth Provider
+├── components/
+│   ├── AuthContext.js    ← نظام تسجيل الدخول
+│   ├── LoginPage.js      ← صفحة الدخول
+│   ├── DeviceModal.js    ← إضافة/تعديل جهاز
+│   ├── UsersPanel.js     ← إدارة المستخدمين
+│   └── SettingsPanel.js  ← إعداد Google Sheets
+├── lib/
+│   ├── data.js           ← البيانات والترجمات
+│   └── export.js         ← تصدير Excel/PDF/Sheets
+└── README.md             ← تعليمات + كود Google Sheets
